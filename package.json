@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend:start": "pnpm --filter backend start",
+    "backend:dev": "pnpm --filter backend dev",
+    "frontend:start": "pnpm --filter frontend start",
+    "frontend:dev": "pnpm --filter frontend dev",
+    "lint": "pnpm --filter backend lint --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
